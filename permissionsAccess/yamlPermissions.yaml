@@ -1,0 +1,55 @@
+backendById:
+    1:
+        createRoute: true
+        updateRoute: true
+        deleteRoute: true
+    2:
+        createRoute: true
+        updateRoute: true
+        deleteRoute: true
+    3:
+        createRoute: true
+        updateRoute: true
+        deleteRoute: true
+
+backendRouteById:
+    createRoute:
+        1: true
+        2: true
+        3: true
+    updateRoute:
+        1: true
+        2: true
+        3: true
+    deleteRoute:
+        1: true
+        2: true
+        3: true
+
+backendByRole:
+    admin:
+        createRoute: true
+        updateRoute: true
+        deleteRoute: true
+    dataScientist:
+        createRoute: true
+        updateRoute: true
+        deleteRoute: true
+    viewer:
+        createRoute: true
+        updateRoute: true
+        deleteRoute: true
+
+backendRouteByRole:
+    createRoute:
+        admin: true
+        dataScientist: true
+        viewer: true
+    updateRoute:
+        admin: true
+        dataScientist: true
+        viewer: true
+    deleteRoute:
+        admin: true
+        dataScientist: true
+        viewer: true
