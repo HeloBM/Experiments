@@ -5,9 +5,9 @@ import * as path from 'path'
 
 import { performance } from 'perf_hooks'
 
-import * as jsonPermissions from './jsonPermissions.json'
+import * as jsonPermissions from './permissionFiles/jsonPermissions.json'
 
-const filepath = './yamlPermissions.yaml'
+const filepath = './permissionFiles/yamlPermissions.yaml'
 const yamlString = fs.readFileSync(filepath, 'utf8')
 const yamlPermissions = yaml.parse(yamlString)
 
